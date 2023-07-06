@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index_style copy.css" />
+    <link rel="icon" type="image/x-icon" href="gem-solid.svg">
+
+</head>
+<body>
+  <div class = "container">
+      <div class="btns">
+      <h2 class="title">Delete User</h2>
+      <div class="input-field">
+        <i class="fas fa-user"></i>
+        <input type="text" placeholder="ID" id="_id"/>
+      </div>
+      <div class="input-field">
+        <i class="fas fa-user"></i>
+        <input id = "userName" type="text" placeholder="Username" value=""/>
+      </div>
+      <div class = "error">
+        <p id = "errorEmail"></p>
+      </div>
+      <div class="input-field">
+        <i class="fas fa-envelope"></i>
+        <input id = "email" type="text" placeholder="Email" />
+      </div>
+      <div class = "error">
+        <p id = "error"></p>
+      </div>
+      <div class="input-field">
+        <i class="fas fa-lock"></i>
+        <input id = "password" type="password" placeholder="Password" />
+      </div>
+      <div class = "error">
+        <p id = "errorCheck"></p>
+      </div>
+      <div class="input-field">
+        <i class="fas fa-lock"></i>
+        <input id = "passwordCheck" type="password" placeholder="PasswordCheck" />
+      </div>
+          <input onclick="UpdateUser()" type="submit" value="Update" class = "btn">
+          <p id="update"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
