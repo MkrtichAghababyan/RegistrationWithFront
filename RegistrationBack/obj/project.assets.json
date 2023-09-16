@@ -3634,11 +3634,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\user\\OneDrive\\Рабочий стол\\RegistrationBack\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\user\\source\\repos\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "C:\\Users\\user\\OneDrive\\Рабочий стол\\RegistrationBack\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\repos\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Users\\user\\OneDrive\\Рабочий стол\\RegistrationBack\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
