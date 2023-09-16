@@ -14,6 +14,10 @@
       <h2 class="title">Update User</h2>
       <div class="input-field">
         <i class="fas fa-user"></i>
+        <input id = "id" type="text" placeholder="Id" value=""/>
+      </div>
+      <div class="input-field">
+        <i class="fas fa-user"></i>
         <input id = "userName" type="text" placeholder="Username" value=""/>
       </div>
       <div class = "error">
@@ -37,8 +41,16 @@
         <i class="fas fa-lock"></i>
         <input id = "passwordCheck" type="password" placeholder="PasswordCheck" />
       </div>
+      <div class="input-field">
+        <i class="fas fa-user"></i>
+        <input id = "isAdmin" type="text" placeholder="IsAdmin" value=""/>
+      </div>
+      <div class="input-field">
+        <i class="fas fa-user"></i>
+        <input id = "IsDeleted" type="text" placeholder="Delete" value=""/>
+      </div>
       <div> 
-          <input onclick="UpdateUser()" type="submit" value="Update" class = "btn">
+          <input onclick="UpdateUserForAdmin()" type="submit" value="Update" class = "btn">
           <p id="update"></p>
         </div>
     </div>

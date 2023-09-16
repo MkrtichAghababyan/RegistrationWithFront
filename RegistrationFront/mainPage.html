@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mainPageStyle.css" />
+    <link rel="icon" type="image/x-icon" href="gem-solid.svg">
+</head>
+<body>
+  <div class = "hero">
+    <nav>
+        <img src="logo.png" class="logo">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <img src="user.png" class="user-pic" onclick="toggleMenu()">
+
+        <div class="sub-menu-wrep" id="subMenu">
+          <div class="sub-menu">
+            <div class="user-info">
+              <img src ="user.png">
+              <h3>Name</h3>
+            </div>
+            <hr>
+
+            <a href="#" class="sub-menu-link">
+              <img src="profile.png">
+              <p>Edit Profile</p>
+              <span>></span>
+            </a>
+            <a href="#" class="sub-menu-link">
+              <img src="setting.png">
+              <p>Settings</p>
+              <span>></span>
+            </a>
+            <a href="#" class="sub-menu-link">
+              <img src="help.png">
+              <p>Help & Support</p>
+              <span>></span>
+            </a>
+            <a href="#" class="sub-menu-link">
+              <img src="logout.png">
+              <p>Logout</p>
+              <span>></span>
+            </a>
+
+          </div>
+        </div>
+    </nav>  
+  </div>
+
+    <script>
+      let subMenu = document.getElementById("subMenu");
+
+      function toggleMenu(){
+        subMenu.classList.toggle("open-menu")
+      }
+    </script>
+</body> 
+</html>
